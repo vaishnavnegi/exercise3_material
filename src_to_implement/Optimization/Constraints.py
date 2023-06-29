@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class L2_Regularizer:
 
     def __init__(self , alpha):
