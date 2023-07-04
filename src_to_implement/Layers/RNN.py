@@ -13,7 +13,7 @@ class RNN:
         self.hidden_size = hidden_size
         self.output_size = output_size
 
-        self.hidden_state = np.zeros((1 , hidden_size))
+        self.hidden_state = np.zeros((1, hidden_size))
         self.memorize = False
 
         self.concatenated_inp = None
